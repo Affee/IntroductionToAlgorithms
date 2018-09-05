@@ -6,10 +6,8 @@ Introduction to algorithms 算法导论
 
 
 
-休息了一阵，儿子出生了，母子平安
-最近在家陪着，这狗崽子可真是个戏精啊
+SUCCESS IS NOT FINAL
 
-success is not
 
 A lot of things, sometimes, all want to escape, but really also can not escape, since so, it is better to have a good heart to do things well,
 
