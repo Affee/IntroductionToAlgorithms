@@ -9,6 +9,8 @@ Introduction to algorithms 算法导论
 休息了一阵，儿子出生了，母子平安
 最近在家陪着，这狗崽子可真是个戏精啊
 
-好多事情，有时候，都好想逃避，但确也逃不掉，既然如此，不如就安安心心好好地吧事情做好吧，
+success is not
 
-有些时候，想做各种事情，老想着是环境影响的，可真正的原因，确实还是自己不够专心专注的吧事情做好，毕竟都这么大岁数了，真二八经的能把事情做好的又有几件事情呢
+A lot of things, sometimes, all want to escape, but really also can not escape, since so, it is better to have a good heart to do things well,
+
+Sometimes, I want to do all kinds of things, thinking about the impact of the environment, but the real reason is that I am not focused enough to do things well. After all, with such age, there are a few things that can do things well
