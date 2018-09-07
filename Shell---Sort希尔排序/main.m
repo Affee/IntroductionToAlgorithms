@@ -11,8 +11,13 @@ void ShellSort(int arr[],int nLength);
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        int arr[] = {23,2231,4,5,6,7,8,2};
+        int b = 7;
+        ShellSort(arr, b);
+        for (int i = 0; i<b; i++) {
+            NSLog(@"%d",arr[i]);
+        }
+        
     }
     return 0;
 }
