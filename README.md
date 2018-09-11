@@ -17,3 +17,5 @@ I have been a bit impetuous recently. My work is not so focused. I know I have m
 
 Recently, my work and life have not been dealt with very well, which is rather embarrassing. I hope there will be a good place to return.
 Practice, an introduction to learning algorithms, and design patterns will take into account the important tasks of recent learning
+
+After several days of wasted time, I finally started writing a new project, react-native. I hope I can stick to it and roll up my sleeves and work hard
