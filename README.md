@@ -19,3 +19,5 @@ Recently, my work and life have not been dealt with very well, which is rather e
 Practice, an introduction to learning algorithms, and design patterns will take into account the important tasks of recent learning
 
 After several days of wasted time, I finally started writing a new project, react-native. I hope I can stick to it and roll up my sleeves and work hard
+
+There are a lot of things in life, waiting for us to do, but self-discipline is also very important, good refueling is really important, every day to live fully
