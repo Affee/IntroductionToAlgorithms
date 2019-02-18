@@ -11,6 +11,7 @@
 		F63A35C920C7F2FA00E13A34 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F63A35C820C7F2FA00E13A34 /* main.c */; };
 		F6477EB22122E65400BF4CF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F6477EB12122E65400BF4CF0 /* main.m */; };
 		F69E675F22157FAF00555F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E675E22157FAF00555F89 /* main.m */; };
+		F69E67B5221ACA5300555F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F69E67B4221ACA5300555F89 /* main.m */; };
 		F6EE604C2119858500292DFA /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F6EE604B2119858500292DFA /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		F69E67B0221ACA5300555F89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F6EE60472119858500292DFA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +81,8 @@
 		F6477EB12122E65400BF4CF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F69E675C22157FAF00555F89 /* Bubble Sort----冒泡排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Bubble Sort----冒泡排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69E675E22157FAF00555F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F69E67B2221ACA5300555F89 /* Merge Sort----归并排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Merge Sort----归并排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69E67B4221ACA5300555F89 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6EE60492119858500292DFA /* INSERTION-SORT---插入排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "INSERTION-SORT---插入排序"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6EE604B2119858500292DFA /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F69E67AF221ACA5300555F89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F6EE60462119858500292DFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,6 +149,7 @@
 				F6477EB02122E65400BF4CF0 /* Shells Sort----希尔排序 */,
 				F60BFB4F214285E300865075 /* Shell---Sort希尔排序 */,
 				F69E675D22157FAF00555F89 /* Bubble Sort----冒泡排序 */,
+				F69E67B3221ACA5300555F89 /* Merge Sort----归并排序 */,
 				F63A35C620C7F2FA00E13A34 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -142,6 +162,7 @@
 				F6477EAF2122E65400BF4CF0 /* Shells Sort----希尔排序 */,
 				F60BFB4E214285E200865075 /* Shell---Sort希尔排序 */,
 				F69E675C22157FAF00555F89 /* Bubble Sort----冒泡排序 */,
+				F69E67B2221ACA5300555F89 /* Merge Sort----归并排序 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +189,14 @@
 				F69E675E22157FAF00555F89 /* main.m */,
 			);
 			path = "Bubble Sort----冒泡排序";
+			sourceTree = "<group>";
+		};
+		F69E67B3221ACA5300555F89 /* Merge Sort----归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				F69E67B4221ACA5300555F89 /* main.m */,
+			);
+			path = "Merge Sort----归并排序";
 			sourceTree = "<group>";
 		};
 		F6EE604A2119858500292DFA /* INSERTION-SORT---插入排序 */ = {
@@ -249,6 +278,23 @@
 			productReference = F69E675C22157FAF00555F89 /* Bubble Sort----冒泡排序 */;
 			productType = "com.apple.product-type.tool";
 		};
+		F69E67B1221ACA5300555F89 /* Merge Sort----归并排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69E67B8221ACA5300555F89 /* Build configuration list for PBXNativeTarget "Merge Sort----归并排序" */;
+			buildPhases = (
+				F69E67AE221ACA5300555F89 /* Sources */,
+				F69E67AF221ACA5300555F89 /* Frameworks */,
+				F69E67B0221ACA5300555F89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Merge Sort----归并排序";
+			productName = "Merge Sort----归并排序";
+			productReference = F69E67B2221ACA5300555F89 /* Merge Sort----归并排序 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F6EE60482119858500292DFA /* INSERTION-SORT---插入排序 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6EE604F2119858500292DFA /* Build configuration list for PBXNativeTarget "INSERTION-SORT---插入排序" */;
@@ -291,6 +337,10 @@
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
 					};
+					F69E67B1221ACA5300555F89 = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
 					F6EE60482119858500292DFA = {
 						CreatedOnToolsVersion = 9.4.1;
 						ProvisioningStyle = Automatic;
@@ -314,6 +364,7 @@
 				F6477EAE2122E65400BF4CF0 /* Shells Sort----希尔排序 */,
 				F60BFB4D214285E200865075 /* Shell---Sort希尔排序 */,
 				F69E675B22157FAF00555F89 /* Bubble Sort----冒泡排序 */,
+				F69E67B1221ACA5300555F89 /* Merge Sort----归并排序 */,
 			);
 		};
 /* End PBXProject section */
@@ -348,6 +399,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69E675F22157FAF00555F89 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F69E67AE221ACA5300555F89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69E67B5221ACA5300555F89 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +619,33 @@
 			};
 			name = Release;
 		};
+		F69E67B6221ACA5300555F89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F69E67B7221ACA5300555F89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F6EE604D2119858500292DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -630,6 +716,15 @@
 			buildConfigurations = (
 				F69E676022157FAF00555F89 /* Debug */,
 				F69E676122157FAF00555F89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69E67B8221ACA5300555F89 /* Build configuration list for PBXNativeTarget "Merge Sort----归并排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69E67B6221ACA5300555F89 /* Debug */,
+				F69E67B7221ACA5300555F89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
